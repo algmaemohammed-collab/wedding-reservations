@@ -1,0 +1,70 @@
+{
+  "id": "/wedding-pass-app",
+  "name": "إدارة حجوزات وبطاقات الأعراس",
+  "short_name": "إدارة الحفل",
+  "description": "تطبيق إدارة حجوزات وبطاقات دعوات الأعراس وقارئ باركود بوابة الاستقبال بالكاميرا",
+  "start_url": "/?page=admin",
+  "scope": "/",
+  "display": "standalone",
+  "display_override": ["standalone", "minimal-ui"],
+  "orientation": "portrait",
+  "dir": "rtl",
+  "lang": "ar",
+  "background_color": "#070605",
+  "theme_color": "#070605",
+  "categories": ["events", "lifestyle", "productivity"],
+  "icons": [
+    {
+      "src": "/pwa-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/pwa-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/pwa-maskable-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "بوابة الاستقبال (الماسح)",
+      "short_name": "بوابة الدخول",
+      "description": "قارئ باركود كاميرا هاتف البوابة",
+      "url": "/?page=gate",
+      "icons": [
+        {
+          "src": "/pwa-192x192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "لوحة الإدارة والتحكم",
+      "short_name": "لوحة الإدارة",
+      "description": "إحصائيات وتعديل مواعيد الحفل",
+      "url": "/?page=admin",
+      "icons": [
+        {
+          "src": "/pwa-192x192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
+    }
+  ]
+}

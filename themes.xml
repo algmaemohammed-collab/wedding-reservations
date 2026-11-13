@@ -1,0 +1,7 @@
+<resources>
+    <style name="Theme.WeddingOrganizer" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <item name="android:windowBackground">#070605</item>
+        <item name="android:statusBarColor">#070605</item>
+        <item name="android:navigationBarColor">#070605</item>
+    </style>
+</resources>

@@ -1,0 +1,42 @@
+{
+  "id": "/wedding-gate-app",
+  "name": "بوابة استقبال الحفل - قارئ الباركود",
+  "short_name": "بوابة الدخول",
+  "description": "تطبيق قارئ باركود بطاقات الدعوة لبوابة استقبال حفل الزفاف",
+  "start_url": "/?page=gate",
+  "scope": "/",
+  "display": "standalone",
+  "display_override": ["standalone", "minimal-ui"],
+  "orientation": "portrait",
+  "dir": "rtl",
+  "lang": "ar",
+  "background_color": "#070605",
+  "theme_color": "#070605",
+  "categories": ["events", "utilities"],
+  "icons": [
+    {
+      "src": "/pwa-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/pwa-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/pwa-maskable-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}
